@@ -1,3 +1,8 @@
+"""
+Authors: Ian Henriques, Jin Schofield, Sophie Broderick'
+(Inspired by MEow original paper's style, but with the flow policy implemented and documented by us)
+"""
+
 import torch
 import torch.nn as nn
 

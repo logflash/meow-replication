@@ -1,3 +1,7 @@
+"""
+Authors: Ian Henriques, Jin Schofield, Sophie Broderick
+"""
+
 import os
 import random
 import time
@@ -244,9 +248,21 @@ def train(config):
     writer.close()
 
 if __name__ == '__main__':
-    config = Config.from_yaml("config_td3_robust.yaml")
+
+    import warnings
+    import argparse
+    warnings.filterwarnings("ignore", category=DeprecationWarning)
+    warnings.filterwarnings("ignore", category=UserWarning)
+
+    # Create the configuration
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--config')
+    config = Config.from_yaml(parser.parse_args().config)
+
+    # Random seed
     random.seed(config.seed)
     np.random.seed(config.seed)
     torch.manual_seed(config.seed)
     torch.backends.cudnn.deterministic = True
+
     train(config)

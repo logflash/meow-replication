@@ -1,3 +1,8 @@
+"""
+Authors: Ian Henriques, Jin Schofield, Sophie Broderick
+(Inspired by MEow original paper's style, but with the training process and configurations implemented and documented by us)
+"""
+
 import os
 import sys
 import random

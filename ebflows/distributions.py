@@ -1,3 +1,7 @@
+"""
+Authors: Original MEow authors (reformatted by us)
+"""
+
 import torch
 import torch.nn as nn
 import numpy as np

@@ -1,3 +1,7 @@
+"""
+Authors: CleanRL
+"""
+
 # docs and experiment results can be found at https://docs.cleanrl.dev/rl-algorithms/sac/#sac_continuous_actionpy
 import os
 import random

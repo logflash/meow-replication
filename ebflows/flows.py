@@ -1,3 +1,7 @@
+"""
+Authors: Original MEow authors (reformatted by us)
+"""
+
 import numpy as np
 import torch
 from normflows.flows import Flow

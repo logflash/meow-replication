@@ -1,3 +1,8 @@
+"""
+Authors: Ian Henriques, Jin Schofield, Sophie Broderick
+(Inspired by MEow original paper's style, but implemented by us)
+"""
+
 import os
 import sys
 
