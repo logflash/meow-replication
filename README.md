@@ -49,7 +49,7 @@ To run HumanoidStandup-v4 with SAC:
 python sac_continuous_action.py --seed <SEED> --env-id HumanoidStandup-v4 --total-timesteps 2500000 --tau 0.0005 --alpha 0.125 --learning_starts 5000
 ```
 
-### MuJoCo Environments (AntRandom-v5)
+### Robust Gymnasium (AntRandom-v5)
 
 **We wrote this section of the code for Python 3.12, for compatibility with Adroit.**
 
