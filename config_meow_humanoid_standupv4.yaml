@@ -1,0 +1,14 @@
+seed: 1
+env_id: "HumanoidStandup-v4"
+total_timesteps: 2500000
+buffer_size: 1000000
+gamma: 0.99
+tau: 0.0001
+batch_size: 256
+learning_start_step: 5000
+learning_rate: 0.001
+noise_clip: 0.5
+alpha: 0.125
+grad_clip: 30
+log_sigma_max: -0.3
+log_sigma_min: -5.0
